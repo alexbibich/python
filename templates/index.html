@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+
+<main class="container">
+	<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+	    <div class="col-md-6 px-0">
+	      <h1 class="display-4 fst-italic">Это мой сайт объявлений</h1>
+	      <p class="lead my-3">Максимально прост и лаконичен</p>
+	    </div>
+	</div>
+	<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Премущества данного сайта</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div>
+          <h2>Авторизация</h2>
+          <p>Чтобы создавать, редактировать и удалять статьи на данном ресурсе нужно быть авторизованным</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        </div>
+        <div>
+          <h2>Новогоднее настроение</h2>
+          <p>Стилизация сайта призвана поднять новогоднее настроение!</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        </div>
+        <div>
+          <h2>Hand made</h2>
+          <p>Сделано с душой</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+
